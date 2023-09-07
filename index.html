@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Quicksand:wght@300&family=Roboto+Mono&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <!--NAV-->
+    
+    <!--NAV-->
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form">
+        <!--Username-->
+            <div class="form-control">
+                <label>Username</label> 
+                <input id="username" type="text" placeholder="sasukefan69">
+                <i class="fa-solid fa-check"></i>
+                <i class="fa-solid fa-exclamation"></i>
+                <small>Error Message</small>
+                </div>
+        <!--Email-->
+            <div class="form-control">
+                <label>Email</label> 
+                <input id="email" type="email" placeholder="sasukefan69@gmail.com">
+                <i class="fa-solid fa-check"></i>
+                <i class="fa-solid fa-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+        <!--Password-->
+            <div class="form-control">
+                <label>Password</label> 
+                <input id="password" type="password" placeholder="Enter Password">
+                <i class="fa-solid fa-check"></i>
+                <i class="fa-solid fa-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+        <!--Password Confirmation-->
+                <div class="form-control">
+                <label>Re-enter Password</label> 
+                <input id="password2" type="password" placeholder="Confirm Password">
+                <i class="fa-solid fa-check"></i>
+                <i class="fa-solid fa-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
